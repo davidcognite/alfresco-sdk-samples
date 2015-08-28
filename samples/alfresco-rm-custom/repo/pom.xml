@@ -38,12 +38,12 @@
             <type>amp</type>
         </dependency>
         <!-- Demonstrating the usage of a well known GA AMP (SharePoint Protocol Support) -->
-        <dependency>
-            <groupId>${alfresco.groupId}</groupId>
-            <artifactId>alfresco-spp</artifactId>
-            <version>${alfresco.version}</version>
-            <type>amp</type>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>${alfresco.groupId}</groupId>-->
+            <!--<artifactId>alfresco-spp</artifactId>-->
+            <!--<version>${alfresco.version}</version>-->
+            <!--<type>amp</type>-->
+        <!--</dependency>-->
     </dependencies>
 
     <build>
@@ -74,11 +74,11 @@
                             <artifactId>repo-amp</artifactId>
                             <type>amp</type>
                         </overlay>
-                        <overlay>
-                            <groupId>${alfresco.groupId}</groupId>
-                            <artifactId>alfresco-spp</artifactId>
-                            <type>amp</type>
-                        </overlay>
+                        <!--<overlay>-->
+                            <!--<groupId>${alfresco.groupId}</groupId>-->
+                            <!--<artifactId>alfresco-spp</artifactId>-->
+                            <!--<type>amp</type>-->
+                        <!--</overlay>-->
                     </overlays>
                 </configuration>
             </plugin>
@@ -152,7 +152,7 @@
         <profile>
             <id>rm</id>
              <properties>
-                <alfresco.rm.artifactId>alfresco-rm</alfresco.rm.artifactId>
+                <alfresco.rm.artifactId>alfresco-rm-server</alfresco.rm.artifactId>
             </properties>
             <build>
                 <plugins>
