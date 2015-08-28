@@ -27,7 +27,7 @@
         <!-- Defines the Alfresco version to work against.
              Community versions are typically identified by major.minor.character (4.2.a) while Enterprise versions are identified by major.minor.digit (4.2.0) 
         -->
-        <alfresco.version>5.0.a</alfresco.version>
+        <alfresco.version>5.0.1</alfresco.version>
         <!-- This control the root logging level for all apps -->
         <app.log.root.level>WARN</app.log.root.level>
         <!-- This controls the default data location for dir.root -->
@@ -35,7 +35,7 @@
         <!-- This controls which properties will be picked in multi-enviromment build -->
         <env>local</env>
         <!-- Alfresco RM version -->
-        <alfresco.rm.version>2.3.a.1</alfresco.rm.version>
+        <alfresco.rm.version>3.0-SNAPSHOT</alfresco.rm.version>
     </properties>
 
    <!-- Here we realize the connection with the Alfresco selected platform (e.g.version and edition) -->
@@ -75,7 +75,7 @@
              <properties>
                 <app.rm.amps.location>${project.build.directory}/rm-amps</app.rm.amps.location>
                 <app.rm.war.location>${project.build.directory}/${project.build.finalName}.war</app.rm.war.location>
-                <app.rm.artifact>org.alfresco:${alfresco.rm.artifactId}:${alfresco.rm.version}:amp</app.rm.artifact>
+                <app.rm.artifact>org.alfresco:${alfresco.rm.artifactId}:${alfresco.rm.version}:amp:amp</app.rm.artifact>
              </properties>
         </profile>
     </profiles>

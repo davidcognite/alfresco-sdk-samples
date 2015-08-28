@@ -25,7 +25,7 @@
         </dependency>
         <dependency>
             <groupId>${alfresco.groupId}</groupId>
-            <artifactId>alfresco-rm</artifactId>
+            <artifactId>alfresco-rm-server</artifactId>
             <version>${alfresco.rm.version}</version>
             <type>jar</type>
             <classifier>classes</classifier>
@@ -44,7 +44,7 @@
             <dependencies>
                 <dependency>
                     <groupId>${alfresco.groupId}</groupId>
-                    <artifactId>alfresco-rm</artifactId>
+                    <artifactId>alfresco-rm-server</artifactId>
                     <version>${alfresco.rm.version}</version>
                     <type>jar</type>
                     <classifier>classes</classifier>
