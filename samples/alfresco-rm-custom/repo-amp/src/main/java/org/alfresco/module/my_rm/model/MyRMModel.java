@@ -40,4 +40,5 @@ public interface MyRMModel
     // Custom Record
     QName ASPECT_MY_COMPLIANCE_RECORD_METADATA = QName.createQName(MY_RM_URI, "myComplianceRecordMetaData");
     QName PROP_MY_COMPLIANCE_ID = QName.createQName(MY_RM_URI, "myComplianceID");
+    QName PROP_MY_COMPLIANCE_OFFICER = QName.createQName(MY_RM_URI, "myComplianceOfficer");
 }

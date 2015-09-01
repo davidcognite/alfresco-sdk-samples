@@ -52,6 +52,11 @@
                <type>d:text</type>
                <mandatory>true</mandatory>
             </property>
+             <property name="myrm:myComplianceOfficer">
+                 <title>Compliance Officer</title>
+                 <type>d:text</type>
+                 <mandatory>false</mandatory>
+             </property>
          </properties>
       </aspect>
       
