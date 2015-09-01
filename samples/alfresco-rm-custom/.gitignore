@@ -1,5 +1,9 @@
 /.settings
 /.project
+/.idea
 /alf_data_dev
 /alfresco.log
 /solr.log
+**/target/
+repo/overlays
+share/overlays
