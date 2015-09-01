@@ -4,7 +4,7 @@
      <!--  Share module configuration -->
      <module>
          <id>Alfresco :: My Records Management Custom Global</id>
-         <auto-deploy-index>99</auto-deploy-index>
+         <auto-deploy-index>1</auto-deploy-index>
          <auto-deploy>true</auto-deploy>
 
          <!-- Base evaluator that decides if any of the component bindings should be used at all -->
